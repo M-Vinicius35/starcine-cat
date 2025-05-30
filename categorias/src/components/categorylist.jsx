@@ -17,7 +17,7 @@ const movies = [
 ];
 
 const CategoryList = () => (
-  <div className="categories">
+  <div className="filmestitle">
     <h2 id="title_filmes">
       <a href="#">Filmes</a>
     </h2>

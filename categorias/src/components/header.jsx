@@ -7,7 +7,7 @@ const Header = ({ toggleTheme, isDarkMode }) => (
 
       <nav className="dropdown">
         <button className="dropbtn">
-          <span id="title-menu">Categoria <i className="fas fa-chevron-down"></i></span>
+          <span id="title-menu">Categoria <i className='fas fa-chevron-down'></i></span>
         </button>
         <div className="dropdown-content">
           <a href="#">Animes</a>
@@ -18,7 +18,7 @@ const Header = ({ toggleTheme, isDarkMode }) => (
 
       <div className="search-container">
         <input type="search" placeholder="Buscar..." />
-        <img src="./assets/search.svg" alt="Buscar" className="search-icon" />
+        <img src="/assets/search.svg" alt="Buscar" className="search-icon" />
       </div>
 
       <a href="#" className="favoritos-link">
